@@ -5,3 +5,8 @@ var quotes = [
   "\"Dream on big and dare to fail.\" - Norman Vaughan",
   "\"Quality is not an act, is a habit\" - Aristotle"
 ]
+
+var randomNumber = Math.floor(Math.random() * (quotes.length));
+var newQuote = function (){
+
+}
