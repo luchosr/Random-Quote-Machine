@@ -24,6 +24,9 @@ $(document).ready(function(){
   
   $("#botn").on("click",newQuote);
  // alert("hola ke ase");
+  $(".tw").on("click", function(){
+    window.open("https://twitter.com/intent/tweet?text=" + quotes[randomNumber] + " " + authors[randomNumber]);
+  });
 
 
    });
