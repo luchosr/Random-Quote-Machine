@@ -1,3 +1,48 @@
-main{
-  background-color: 
+body {
+  color:floralwhite;
+  background: url(../img/footer_lodyas.png);
+  background-repeat: repeat;
+  background-attachment: scroll;
+  
+}
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  margin-top: 100px;
+  font-size: 60px;
+  color:#fed136;
+}
+
+.display {
+  background-color: white;
+  max-width: 60%;
+  margin-left: 25%
+}
+
+p{
+
+  font-size: 20px;
+}
+
+p, .quotes, .apost, .author{
+  font-family: 'Oswald', sans-serif;
+  
+}
+.quotes{
+  color: black;
+  font-size: 24px;
+}
+
+.author{
+  color:lightslategray;
+  margin-left: 70%;
+  font-size: 14px;
+}
+
+.btn {
+  margin-top: 100px;
+}
+.apost{
+  color: darkslategray;
+  font-size: 60px;
 }
