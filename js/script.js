@@ -12,22 +12,25 @@
    var authors = [ "- Homer J. SImpson", "- Luis A. Spinetta",  "- V (V for vendetta)" , " - Norman Vaughan" , " - Aristotle", "- Andrew Hendrixson",
    "- Albert Einstein", "- Henry David Thoreau","- John Maxwell"];
 
+  //  var tweetOut = function(){
+  //    $(".tw").attr("href",'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' + encodeURIComponent('"' + quotes[randomNumber] + '" ' + authors[randomNumber]));
+  //  };
+
 var newQuote = function(){
   // alert("testeando!");
    var randomNumber = Math.floor(Math.random() * (quotes.length));
   // alert(randomNumber);
    $(".quotes").html(quotes[randomNumber]);
    $(".author").html(authors[randomNumber]);
+   $(".tw").attr("href",'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=' + encodeURIComponent('"' + quotes[randomNumber] + '" ' + authors[randomNumber]));
    };
 
+
 $(document).ready(function(){
-  
+
   $("#botn").on("click",newQuote);
  // alert("hola ke ase");
-  $(".tw").on("click", function(){
-    window.open("https://twitter.com/intent/tweet?text=" + quotes[randomNumber] + " " + authors[randomNumber]);
-  });
-
+  // $(".tw").on("click", tweetOut);
+    //  window.open("https://twitter.com/intent/tweet?text=" + quotes[randomNumber] + " " + authors[randomNumber]);
 
    });
-   
