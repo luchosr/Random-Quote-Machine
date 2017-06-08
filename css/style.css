@@ -21,10 +21,7 @@ p {
   font-size: 20px;
 }
 
-p,
-.quotes,
-.apost,
-.author {
+p, .quotes, .apost, .author {
   font-family: 'Oswald', sans-serif;
 }
 
@@ -35,20 +32,6 @@ p,
   min-height: 230px;
   border-radius: 3px;
 }
-
-
-.buttons{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 40px;
-}
-.fa-3x{
-  font-size: 60px;
-  margin-left: 10px;
-}
-
-
 
 .quotes {
   color: black;
@@ -61,15 +44,25 @@ p,
   font-size: 14px;
 }
 
-.btn {
-
-  color: dimgray;
-  font-family: 'Kaushan Script', cursive;
-  font-size: 26px;
-
-}
-
 .apost {
   color: darkslategray;
   font-size: 60px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.fa-3x {
+  font-size: 60px;
+  margin-left: 10px;
+}
+
+.btn {
+  color: dimgray;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 26px;
 }
