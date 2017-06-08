@@ -10,6 +10,15 @@ h1 {
   font-size: 60px;
   color: #fed136;
 }
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-3x{
+  font-size: 60px;
+  margin-left: 10px;
+}
 
 .display {
   background-color: white;
@@ -44,7 +53,7 @@ p,
 }
 
 .btn {
-  margin-top: 80px;
+
   color: dimgray;
   font-family: 'Kaushan Script', cursive;
   font-size: 26px;
